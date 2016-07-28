@@ -22,6 +22,11 @@ Be sure to set the appropriate environment variables for Mosek. For 64-bit Linux
 
 	LD_LIBRARY_PATH=<path_to_mosek>/mosek//6/tools/platform/linux64x86/bin
 	MOSEKLM_LICENSE_FILE=<path_to_mosek>/mosek/6/licenses/mosek.lic
+	
+For 64-bit Mac OS X, the environment variables should be:
+
+	DYLD_LIBRARY_PATH=<path_to_mosek>/mosek//6/tools/platform/osx64x86/bin
+	MOSEKLM_LICENSE_FILE=<path_to_mosek>/mosek/6/licenses/mosek.lic
 
 (Note: <path_to_mosek> should be replaced with the path to wherever you installed Mosek.)
 
